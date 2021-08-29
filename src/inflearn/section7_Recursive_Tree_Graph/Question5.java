@@ -25,14 +25,14 @@ public class Question5 {
 
     public static void main(String[] args) {
         Question5 tree = new Question5();
-        //Level 1
+        //Level 0
         tree.root = new Node(1);
 
-        //Level 2
+        //Level 1
         tree.root.lt = new Node(2);
         tree.root.rt = new Node(3);
 
-        //Level 3
+        //Level 2
         tree.root.lt.lt = new Node(4);
         tree.root.lt.rt = new Node(5);
 
