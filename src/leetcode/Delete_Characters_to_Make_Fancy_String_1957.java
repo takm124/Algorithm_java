@@ -19,7 +19,7 @@ public class Delete_Characters_to_Make_Fancy_String_1957 {
                 sb.append (s.charAt (i));
             }
         }
-        
+
         return sb.toString ();
     }
 }
