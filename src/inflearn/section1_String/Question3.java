@@ -2,7 +2,7 @@ package inflearn.section1_String;
 
 import java.util.Scanner;
 
-public class Question3 {
+public class Question3 { // 문장속 단어
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         String s = in.nextLine();
