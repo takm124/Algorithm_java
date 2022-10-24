@@ -1,6 +1,5 @@
 package inflearn.section1_String;
 
-import java.util.Locale;
 import java.util.Scanner;
 
 public class Question1 { // 문자 찾기
@@ -14,9 +13,11 @@ public class Question1 { // 문자 찾기
     }
 
     private static int solution1(String arr, String c) {
-        int answer = 0;
         arr = arr.toLowerCase();
         c = c.toLowerCase();
+
+        int answer = 0;
+
         for (int i = 0; i < arr.length(); i++) {
             if (arr.charAt(i) == c.charAt(0)) answer++;
         }
