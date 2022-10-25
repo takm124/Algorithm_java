@@ -31,7 +31,7 @@ public class Question6 { // 중복 문자 제거
 
     /**
      * s.indexOf(s.charAt(i)) == i) 의 의미는
-     * String의 i번째 character가 처음 등장하는 것인지 확인하는 구문 
+     * String의 i번째 character가 처음 등장하는 것인지 확인하는 구문
      */
     private static String solution2(String s) {
         String answer = "";
