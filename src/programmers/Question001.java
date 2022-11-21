@@ -2,7 +2,7 @@ package programmers;
 
 import java.util.*;
 
-public class Question1 { // 숫자 카드 나누기
+public class Question001 { // 숫자 카드 나누기
     public int solution(int[] arrA, int[] arrB) {
         int answer = 0;
         Set<Integer> set = new HashSet<>();
