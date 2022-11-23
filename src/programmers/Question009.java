@@ -20,4 +20,15 @@ public class Question009 { // 다음 큰 숫자
 
         return min;
     }
+
+    public int solution2(int n) { // bitCounter 사용
+        int nCnt = Integer.bitCount(n);
+        int nxCnt = 0;
+
+        while (nCnt != nxCnt) {
+            nxCnt = Integer.bitCount(++n);
+        }
+
+        return n;
+    }
 }
