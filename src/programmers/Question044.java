@@ -3,7 +3,7 @@ package programmers;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class Question44 { // 숫자 변환하기
+public class Question044 { // 숫자 변환하기
     public int solution(int x, int y, int n) {
         int[] arr = new int[1000001];
         Queue<Integer> q = new LinkedList<>();

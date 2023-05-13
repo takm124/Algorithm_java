@@ -2,7 +2,7 @@ package programmers;
 
 import java.util.Arrays;
 
-public class Question41 { // 가장 큰 수
+public class Question041 { // 가장 큰 수
 
     public String solution(int[] numbers) { // [3, 30, 34, 5, 9]	"9534330"
         String[] arr = new String[numbers.length];

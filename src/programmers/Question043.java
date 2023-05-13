@@ -2,7 +2,7 @@ package programmers;
 
 import java.util.*;
 
-public class Question43 { // 뒤에 있는 큰 수 찾기
+public class Question043 { // 뒤에 있는 큰 수 찾기
     public int[] solution(int[] numbers) {
         int len = numbers.length;
         int[] ans = new int[len];

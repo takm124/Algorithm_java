@@ -3,7 +3,7 @@ package programmers;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Question42 { // 소수 찾기
+public class Question042 { // 소수 찾기
 
     boolean ch[];
     Set<Integer> set;

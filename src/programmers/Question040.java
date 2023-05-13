@@ -2,7 +2,7 @@ package programmers;
 
 import java.util.*;
 
-public class Question40 { // 귤 고르기
+public class Question040 { // 귤 고르기
     public int solution(int k, int[] tangerine) {
         Map<Integer, Integer> map = new HashMap<>();
 
